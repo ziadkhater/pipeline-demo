@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/circleciconfig.json": "git:/d%3A/FWD/CICD/pipeline-demo/.circleci/config.yaml?%7B%22path%22%3A%22d%3A%5C%5CFWD%5C%5CCICD%5C%5Cpipeline-demo%5C%5C.circleci%5C%5Cconfig.yaml%22%2C%22ref%22%3A%22%22%7D"
+    }
+}
