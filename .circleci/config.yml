@@ -7,9 +7,9 @@ jobs:
     steps:
       - run: echo "hello world" > ~/output.txt
       - persist_to_workspace:
-        root: /tmp/workspace
-        paths:
-          - output.txt
+          root: /tmp/workspace
+          paths:
+            - output.txt
 #Next Job will get a file output.txt from a workspace then prints this file
   print_output_file:
     docker: 
