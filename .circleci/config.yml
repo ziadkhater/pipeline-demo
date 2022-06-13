@@ -15,4 +15,4 @@ jobs:
 workflows:
   my_workflow:
     jobs:
-      print_pipeline_id_job:
+      - print_pipeline_id_job:
