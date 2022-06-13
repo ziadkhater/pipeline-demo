@@ -3,6 +3,8 @@ version: 2.1
 jobs:
 #Next Job will call the command to print circle workflow ID
   failed-job:
+    docker:
+      - image: circleci/node:13.8.0
     steps:
       - run: exit 1
       - run:
