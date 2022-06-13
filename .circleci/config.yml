@@ -4,10 +4,11 @@ jobs:
 #Next Job will call the command to print circle workflow ID
   failed-job:
     steps:
-      - run: return 1
+      - run: exit 1
       - run:
-        echo "Hello error"
-        when: on_fail
+          name: on error
+          command: echo "Hello error"
+          when: on_fail
 
 workflows:
   my_workflow:
